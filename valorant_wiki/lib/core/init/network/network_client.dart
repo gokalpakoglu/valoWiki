@@ -13,7 +13,7 @@ abstract class NetworkClient {
 
   @GET("/agents")
   Future<Agents> getAgents();
-  
+
   @GET("/buddies")
   Future<dynamic> getBuddies();
 
@@ -25,7 +25,6 @@ abstract class NetworkClient {
 
   @GET("competitivetiers")
   Future<dynamic> getCompetitiveTiers();
-
 
   @GET("contenttiers")
   Future<dynamic> getContentTiers();

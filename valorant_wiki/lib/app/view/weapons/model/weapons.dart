@@ -40,7 +40,7 @@ class Data with EquatableMixin {
   String? displayIcon;
   String? killStreamIcon;
   String? assetPath;
-  WeaponStats? weaponStats;
+  // WeaponStats? weaponStats;
   ShopData? shopData;
   List<Skins>? skins;
 
@@ -52,7 +52,7 @@ class Data with EquatableMixin {
     this.displayIcon,
     this.killStreamIcon,
     this.assetPath,
-    this.weaponStats,
+    // this.weaponStats,
     this.shopData,
     this.skins,
   });
@@ -70,7 +70,7 @@ class Data with EquatableMixin {
         displayIcon,
         killStreamIcon,
         assetPath,
-        weaponStats,
+        // weaponStats,
         shopData,
         skins
       ];
@@ -83,7 +83,7 @@ class Data with EquatableMixin {
     String? displayIcon,
     String? killStreamIcon,
     String? assetPath,
-    WeaponStats? weaponStats,
+    // WeaponStats? weaponStats,
     ShopData? shopData,
     List<Skins>? skins,
   }) {
@@ -95,7 +95,7 @@ class Data with EquatableMixin {
       displayIcon: displayIcon ?? this.displayIcon,
       killStreamIcon: killStreamIcon ?? this.killStreamIcon,
       assetPath: assetPath ?? this.assetPath,
-      weaponStats: weaponStats ?? this.weaponStats,
+      // weaponStats: weaponStats ?? this.weaponStats,
       shopData: shopData ?? this.shopData,
       skins: skins ?? this.skins,
     );

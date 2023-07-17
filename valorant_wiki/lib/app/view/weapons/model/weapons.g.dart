@@ -26,9 +26,6 @@ Data _$DataFromJson(Map<String, dynamic> json) => Data(
       displayIcon: json['displayIcon'] as String?,
       killStreamIcon: json['killStreamIcon'] as String?,
       assetPath: json['assetPath'] as String?,
-      weaponStats: json['weaponStats'] == null
-          ? null
-          : WeaponStats.fromJson(json['weaponStats'] as Map<String, dynamic>),
       shopData: json['shopData'] == null
           ? null
           : ShopData.fromJson(json['shopData'] as Map<String, dynamic>),
@@ -45,7 +42,6 @@ Map<String, dynamic> _$DataToJson(Data instance) => <String, dynamic>{
       'displayIcon': instance.displayIcon,
       'killStreamIcon': instance.killStreamIcon,
       'assetPath': instance.assetPath,
-      'weaponStats': instance.weaponStats,
       'shopData': instance.shopData,
       'skins': instance.skins,
     };
